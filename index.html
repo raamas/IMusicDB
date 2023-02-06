@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Data Finder</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="back-button-container">
+            <button id="reload">
+                Back
+            </button>
+        </div>
+
+        <h1 class="title">Music Data Finder</h1>
+        <form id="form">
+            <div class="form">
+                <input type="text" name="song-name" id="song-name" placeholder="Write the song's name" class="search-input">
+                <input type="submit" value="SEARCH" id="search-btn" class="btn">
+            </div>
+        </form>
+        <div class="results">
+            <h2>Results...</h2>
+            <div id="results-container" class="results-container">
+
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

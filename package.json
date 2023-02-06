@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "spotify-web-api-js": "^1.5.2",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
